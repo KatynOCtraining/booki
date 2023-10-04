@@ -50,6 +50,7 @@ a {
     text-decoration: none;
     color: black;
 }
+
 /*En tete de page*/
 
 header img {
@@ -467,7 +468,9 @@ footer h3{
 
 @media (max-width : 768px){
 
-
+h1,h2,h3{
+  padding-left: 20px;
+}
 header {
   display: flex;
   flex-direction: column;
@@ -506,6 +509,7 @@ header li{
 
 .border-blue{
   border-bottom: solid 3px var(--grey);
+  padding-bottom: 15px;
 }
 
 header .border-blue:hover{
@@ -513,6 +517,7 @@ header .border-blue:hover{
   color: #0065fc;
   border-bottom:  solid 3px var(--blue);
   padding-top: 0;
+
   
 
 }
@@ -527,6 +532,31 @@ header a {
 
 .filters {
   justify-content: center;
+}
+
+
+.fa-solid.fa-magnifying-glass {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--blue);
+  font-size: 15px;
+  padding: 15px;
+  color: white;
+  border-radius: 15px;
+
+
+}
+
+.searchbar {
+  justify-content: center;
+}
+.searchbar_button {
+  display: none;
+}
+
+.btn-search span {
+  display: none;
 }
 
 
