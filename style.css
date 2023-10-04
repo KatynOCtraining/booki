@@ -479,8 +479,9 @@ header {
 body{
   padding: 0;
 }
-
-
+header img{
+  padding: 30px;
+}
 nav {
   display: flex;
   flex-direction: row;
