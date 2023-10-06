@@ -536,13 +536,11 @@ header a {
 }
 
 
-.filters {
-  justify-content: center;
-}
 
-.filter_title {
+
+.filters{
   padding-left: 20px;
-  }
+}
 
 
 .fa-solid.fa-magnifying-glass {
@@ -558,8 +556,8 @@ header a {
 
 }
 
-.searchbar {
-  justify-content: center;
+.searchbar{
+  padding: 20px;
 }
 .searchbar_button {
   display: none;
