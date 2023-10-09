@@ -124,7 +124,7 @@ header img {
   justify-content: flex-start;
   height: 49px;
   margin-top: 35px;
-  overflow: hidden;
+ 
 }
 
 .geoicon {
@@ -584,9 +584,11 @@ header a {
 
 .searchbar{
   padding: 20px;
+  
 }
 .searchbar_button {
   display: none;
+  max-width: 320px;
 }
 
 .btn-search span {
