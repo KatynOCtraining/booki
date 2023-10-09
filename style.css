@@ -2,6 +2,7 @@
 
 body, html{
     padding: 0;
+    overflow: hidden;
   
 }
 h1,h2,h4,p {
@@ -548,6 +549,8 @@ header a {
 
 .btn-filter{
   width: 45%;
+  max-width: 165px;
+
 }
 
 
