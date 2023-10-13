@@ -231,11 +231,12 @@ header img {
   display: flex;
   color: var(--blue);
   border: 1px solid var(--grey);
-  padding: 8px;
+  padding: 5px;
   border-radius: 50%;
   width: 10px;
   height: 10px;
-  justify-content: center;    
+  justify-content: center; 
+  align-items: center;   
 
 }
 
@@ -333,6 +334,7 @@ header img {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+
   
 }
 
@@ -341,6 +343,8 @@ header img {
 .populaires{
   background: var(--light-grey);
   border-radius: 20px;
+  width: 33%;
+  
 }
 .populaires_title{
   display: flex;
@@ -373,8 +377,13 @@ header img {
 }
 
 .populaire_description {
-  width: 100%;
+  position: relative;
   padding: 15px 10px 5px 5px;
+}
+
+.rating_star{
+  position: absolute;
+  bottom: 8%;
 }
 
 
@@ -456,7 +465,10 @@ footer h3{
   .card_populaires{
     width: 30%;
   }
-  
+
+.populaires{
+  width: 100%;
+}
 
   .card_activity > img {
     height: 200px;
