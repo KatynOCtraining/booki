@@ -557,14 +557,20 @@ header a {
 
 .filters{
   padding-left: 20px;
+  font-size: 12px;
 }
-
+.filter_title{
+  padding-top: 0;
+}
 .btn-filter{
   width: 45%;
   max-width: 165px;
 
 }
 
+.btn-filter p {
+padding: 0;
+}
 
 
 
@@ -583,12 +589,16 @@ header a {
 }
 
 .searchbar{
-  padding: 20px;
+  padding-left: 20px;
   
 }
 .searchbar_button {
   display: none;
   max-width: 320px;
+}
+
+.searchbar_txt{
+  font-size: 13px;
 }
 
 .btn-search span {
