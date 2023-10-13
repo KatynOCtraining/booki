@@ -561,15 +561,16 @@ header a {
 }
 .filter_title{
   padding-top: 0;
+  width: 100%;
 }
 .btn-filter{
-  width: 45%;
-  max-width: 165px;
+max-width: 165px;
 
 }
 
 .btn-filter p {
 padding: 0;
+padding-right: 10px;
 }
 
 
